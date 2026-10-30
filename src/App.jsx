@@ -7,6 +7,7 @@ import './styles.css';
 export default function App(){return <BrowserRouter><Routes>
 <Route path="/" element={<HomePage/>}/>
 <Route path="/new-arrivals/" element={<NewArrivals/>}/>
+<Route path="/products/" element={<NewArrivals/>}/>
 <Route path="/vape-devices/" element={<SitePage pageKey="devices"/>}/>
 <Route path="/e-liquids/" element={<SitePage pageKey="eliquids"/>}/>
 <Route path="/replacement-coils/" element={<SitePage pageKey="coils"/>}/>
