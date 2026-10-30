@@ -68,7 +68,7 @@ export default function HomePage() {
     <header className="home-header">
       <Link className="home-brand" to="/" aria-label="Vape247 homepage"><span className="home-brand-mark">V</span><span>VAPE<span>247</span><small>LAHORE · PAKISTAN</small></span></Link>
       <nav className="home-nav" aria-label="Main navigation">
-        <Link to="/vape-devices/">Devices</Link><Link to="/new-arrivals/">New Arrivals</Link><Link to="/e-liquids/">E-Liquids</Link><Link to="/replacement-coils/">Coils</Link><Link to="/vape-accessories/">Accessories</Link><Link to="/about-us/">About</Link><Link to="/faq/">FAQs</Link>
+        <Link to="/vape-devices/">Devices</Link><Link to="/products/">All Products</Link><Link to="/e-liquids/">E-Liquids</Link><Link to="/replacement-coils/">Coils</Link><Link to="/vape-accessories/">Accessories</Link><Link to="/about-us/">About</Link><Link to="/faq/">FAQs</Link>
       </nav>
       <a className="home-header-cta" href={`tel:${phone}`}>Call Vape247 <Phone size={15}/></a>
     </header>
