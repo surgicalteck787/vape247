@@ -20,7 +20,7 @@ function SeoNewArrivals() {
 }
 
 function ProductVisual({ product }) {
-  if (product.image) return <div className="catalogue-image"><img src={product.image} alt={product.alt || product.name} loading="lazy" /><span className="catalogue-photo-tag">Manufacturer image</span></div>;
+  if (product.image) return <div className="catalogue-image"><img src={product.image} alt={product.alt || product.name} loading="lazy" /><span className="catalogue-photo-tag">Product photo</span></div>;
   return <div className="catalogue-placeholder" aria-label="Official product photo not yet added">
     <div className="catalogue-placeholder-art"><span></span><i></i></div>
     <div className="catalogue-placeholder-caption"><ImageOff size={13}/> Official product photo pending</div>
@@ -80,7 +80,7 @@ export default function NewArrivals() {
               <h3>{product.name}</h3>
               {product.specs && <p className="catalogue-specs">{product.specs}</p>}
               <div className="catalogue-price"><small>Source-list reference price</small><strong>{product.referencePrice || 'Not supplied'}</strong></div>
-              {product.source ? <a className="na-source-link" href={product.source} target="_blank" rel="noreferrer">Manufacturer information <ArrowUpRight size={14}/></a> : <span className="catalogue-source-pending">Manufacturer link not verified</span>}
+              {product.source ? <a className="na-source-link" href={product.source} target="_blank" rel="noreferrer">Product image source <ArrowUpRight size={14}/></a> : <span className="catalogue-source-pending">Manufacturer link not verified</span>}
             </div>
           </article>)}
         </div>
@@ -93,7 +93,7 @@ export default function NewArrivals() {
       </section>
       <section className="na-note">
         <ShieldCheck size={22}/>
-        <div><strong>Important catalogue and compliance notice</strong><p>The product names and reference prices above were transcribed from the supplied third-party catalogue. They are not confirmed Vape247 selling prices, stock levels or offers. Verify every item, price, authenticity, applicable taxes and local legal requirements before publication as a sales listing. Only two product cards currently have a matched manufacturer image; other cards intentionally show a photo-pending placeholder rather than an unrelated image. Manufacturer images and trademarks remain their owners' property; confirm permission before commercial use. No cart, checkout or order function is provided by this catalogue.</p></div>
+        <div><strong>Important catalogue and compliance notice</strong><p>The product names and reference prices above were transcribed from the supplied third-party catalogue. They are not confirmed Vape247 selling prices, stock levels or offers. Verify every item, price, authenticity, applicable taxes and local legal requirements before publication as a sales listing. {catalogueProducts.filter(product => product.image).length} product cards currently have a matched online product photo; the remaining {catalogueProducts.filter(product => !product.image).length} cards show a photo-pending placeholder rather than an unrelated image. Images are linked from external manufacturer or retailer sources and may be protected by copyright; confirm permission before commercial use. No cart, checkout or order function is provided by this catalogue.</p></div>
       </section>
     </main>
     <footer className="na-footer"><Link to="/">VAPE247.PK</Link><span>Product information for Lahore, Pakistan</span><Link to="/contact/">Contact</Link></footer>
