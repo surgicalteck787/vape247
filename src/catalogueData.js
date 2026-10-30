@@ -62,7 +62,11 @@ export const catalogueProducts = [
   {
     "name": "OXVA NeXlim 2 Pod Kit 40W",
     "category": "Devices",
-    "referencePrice": "Rs.8,000"
+    "referencePrice": "Rs.8,000",
+    "image": "https://cdn.shopify.com/s/files/1/0502/8033/3505/files/Standard_Version_c96c67a1-09ef-4556-aa97-a31012b2f5bd.avif?v=1782092260",
+    "alt": "Official OXVA NeXLIM 2 product image",
+    "source": "https://store.oxva.com/products/oxva-nexlim-2",
+    "specs": "5–40W output · 2000mAh battery"
   },
   {
     "name": "Drip Down Triple Pineapple By Krush Extra Freez",
