@@ -4,10 +4,10 @@ import { ArrowUpRight, MapPin, Phone, ShieldCheck, SearchCheck, PackageCheck, Ci
 
 const phone = '+923204855261';
 const categories = [
-  { title: 'Vape Devices', keyword: 'Vape devices in Lahore', to: '/vape-devices/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Illustration of a vape device category', text: 'Explore device category information, model details and manufacturer specifications.' },
-  { title: 'E-Liquids', keyword: 'E-liquids in Lahore', to: '/e-liquids/', image: 'https://c.pxhere.com/photos/73/f1/vape_vaping_e_cig_clouding_e_cigarette_smoking_atomizer_ecig-652423.jpg!d', alt: 'Illustration of an e-liquid bottle', text: 'Review product labels, ingredient information and verified manufacturer details.' },
-  { title: 'Replacement Coils', keyword: 'Replacement coils in Lahore', to: '/replacement-coils/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Illustration of a replacement coil', text: 'Check model compatibility and part numbers before selecting a replacement.' },
-  { title: 'Vape Accessories', keyword: 'Vape accessories in Lahore', to: '/vape-accessories/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Illustration of vape accessories', text: 'Browse information about compatible accessories and device components.' }
+  { title: 'Vape Devices', keyword: 'Vape devices in Lahore', to: '/vape-devices/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Photograph of vape hardware and electronic cigarette components', text: 'Explore device category information, model details and manufacturer specifications.' },
+  { title: 'E-Liquids', keyword: 'E-liquids in Lahore', to: '/e-liquids/', image: 'https://c.pxhere.com/photos/73/f1/vape_vaping_e_cig_clouding_e_cigarette_smoking_atomizer_ecig-652423.jpg!d', alt: 'Photograph showing an e-cigarette and liquid bottle', text: 'Review product labels, ingredient information and verified manufacturer details.' },
+  { title: 'Replacement Coils', keyword: 'Replacement coils in Lahore', to: '/replacement-coils/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Close-up photograph of vape atomizer and tank components', text: 'Check model compatibility and part numbers before selecting a replacement.' },
+  { title: 'Vape Accessories', keyword: 'Vape accessories in Lahore', to: '/vape-accessories/', image: 'https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d', alt: 'Photograph of vape hardware and related accessories', text: 'Browse information about compatible accessories and device components.' }
 ];
 const faqs = [
   ['Is Vape247 a vape shop in Lahore?', 'Vape247.pk is being developed as a Lahore-focused online product catalogue. Contact us to confirm current service availability and business details before visiting or placing an order.'],
@@ -82,7 +82,7 @@ export default function HomePage() {
           <div className="home-hero-actions"><Link className="home-primary-btn" to="/vape-devices/">Explore categories <ArrowUpRight size={17}/></Link><a className="home-secondary-btn" href={`tel:${phone}`}>Speak to our team <Phone size={16}/></a></div>
           <div className="home-hero-note"><ShieldCheck size={17}/> Adults-only information · Follow applicable local rules</div>
         </div>
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Original editorial illustration of a generic vape device on a dark background" className="home-hero-art"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Close-up product photograph of vape hardware and tank components" className="home-hero-art"/>
         <div className="home-hero-location"><MapPin size={14}/> LAHORE, PUNJAB, PAKISTAN</div>
       </section>
 
@@ -92,7 +92,7 @@ export default function HomePage() {
       </section>
 
       <section className="home-local-section">
-        <Visual src="https://images.pexels.com/photos/14406074/pexels-photo-14406074.jpeg?cs=srgb&dl=pexels-m1ddl3-m7n-288920932-14406074.jpg&fm=jpg" alt="Stylized Lahore city skyline illustration" />
+        <Visual src="https://images.pexels.com/photos/14406074/pexels-photo-14406074.jpeg?cs=srgb&dl=pexels-m1ddl3-m7n-288920932-14406074.jpg&fm=jpg" alt="Badshahi Mosque in Lahore, Punjab, Pakistan" />
         <div><Eyebrow>02 / LOCAL TO LAHORE</Eyebrow><h2>Built around Lahore search intent.</h2><p>Looking for vape product information in Lahore, Pakistan? Vape247 brings key categories and product-checking guidance together in one easy-to-navigate place.</p><p>Our website is being localized for people searching for vape devices, e-liquids, coils and accessories in Lahore. Contact us to confirm current availability and service coverage.</p><div className="home-local-tags"><span>Vape devices Lahore</span><span>E-liquids Lahore</span><span>Vape coils Lahore</span></div></div>
       </section>
 
@@ -118,50 +118,50 @@ export default function HomePage() {
 
       <section className="home-check-section">
         <div className="home-check-copy"><Eyebrow>07 / BEFORE YOU CHOOSE</Eyebrow><h2>What to check in a product listing.</h2><p>Clear information helps customers understand exactly what a product is—and what it is compatible with.</p><ul><li><BadgeCheck size={17}/> Exact brand, model and product identity</li><li><BadgeCheck size={17}/> Manufacturer specifications and package contents</li><li><BadgeCheck size={17}/> Compatibility and replacement part numbers</li><li><BadgeCheck size={17}/> Accurate label details and required warnings</li></ul></div>
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Illustration of a product specification checklist"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of vape product hardware and components"/>
       </section>
 
       <section className="home-compat-section">
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Illustration showing two compatible product components"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of vape tank and component parts"/>
         <div><Eyebrow>08 / COMPATIBILITY GUIDE</Eyebrow><h2>Match parts to the correct model.</h2><p>Before choosing a replacement pod, coil or accessory, compare the product code with the device manufacturer’s compatibility guide. If details are unclear, ask for confirmation rather than guessing.</p><SectionLink to="/replacement-coils/">Read coil category details</SectionLink></div>
       </section>
 
       <section className="home-label-section">
         <div><Eyebrow>09 / PRODUCT DETAILS</Eyebrow><h2>Transparent information matters.</h2><p>Product pages should show verified label information and avoid unsupported health, safety or performance claims. Vape247’s catalogue structure is designed to keep specifications and product notes easy to review.</p><SectionLink to="/e-liquids/">Review e-liquid information</SectionLink></div>
-        <Visual src="https://c.pxhere.com/photos/73/f1/vape_vaping_e_cig_clouding_e_cigarette_smoking_atomizer_ecig-652423.jpg!d" alt="Illustration representing an e-liquid product label"/>
+        <Visual src="https://c.pxhere.com/photos/73/f1/vape_vaping_e_cig_clouding_e_cigarette_smoking_atomizer_ecig-652423.jpg!d" alt="Photograph of an e-cigarette and e-liquid bottle"/>
       </section>
 
       <section className="home-adult-section">
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Shield illustration representing adult-only access"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of vape hardware components"/>
         <div><Eyebrow>10 / RESPONSIBLE ACCESS</Eyebrow><h2>Adults only. Know the rules.</h2><p>Vape247 is intended for adults and does not target minors. Product sales, advertising, display and use may be subject to federal and Punjab rules. Always check current requirements and never use regulated products in prohibited places.</p><SectionLink to="/age-verification/">Read our age and access information</SectionLink></div>
       </section>
 
       <section className="home-verification-section">
         <div><Eyebrow>11 / INFORMATION STANDARDS</Eyebrow><h2>No invented specs. No misleading claims.</h2><p>We aim to publish product information only when it can be checked against reliable manufacturer or supplier documentation. Availability, pricing and authenticity claims must be verified before publication.</p><div className="home-standard-points"><span><SearchCheck size={18}/> Check product identity</span><span><PackageCheck size={18}/> Confirm package details</span><span><ShieldCheck size={18}/> Review applicable rules</span></div></div>
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Magnifying glass and check mark illustration"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of electronic cigarette hardware"/>
       </section>
 
       <section className="home-support-section">
-        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Customer support headset illustration"/>
+        <Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of vape hardware and accessories"/>
         <div><Eyebrow>12 / LAHORE CUSTOMER SUPPORT</Eyebrow><h2>Need help finding the right information?</h2><p>Contact Vape247 to ask about the website, category details or current Lahore service availability. Please confirm product compatibility using the exact model number.</p><a className="home-primary-btn" href={`tel:${phone}`}>Call +92 320 4855261 <Phone size={16}/></a></div>
       </section>
 
       <section className="home-faq-section">
-        <div className="home-section-head"><div><Eyebrow>13 / QUICK ANSWERS</Eyebrow><h2>Frequently asked questions<span>.</span></h2></div><Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Illustration of a frequently asked questions guide" className="home-faq-art"/></div>
+        <div className="home-section-head"><div><Eyebrow>13 / QUICK ANSWERS</Eyebrow><h2>Frequently asked questions<span>.</span></h2></div><Visual src="https://c.pxhere.com/photos/f9/58/vaping_ecig_vgod_atomvape_smoking_rda_rta_vape-489521.jpg!d" alt="Photograph of vape device components and liquid" className="home-faq-art"/></div>
         <div className="home-faq-grid">{faqs.map(([q,a])=><details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div>
         <SectionLink to="/faq/">Visit all FAQs</SectionLink>
       </section>
 
       <section className="home-local-proof-section">
         <div><Eyebrow>14 / FIND VAPE247</Eyebrow><h2>Connect with Vape247 in Lahore.</h2><p>For current business hours, physical location, product availability and service coverage, please contact us directly. We will add verified store details here once confirmed.</p><div className="home-hero-actions"><a className="home-secondary-btn" href={`tel:${phone}`}>Call Vape247 <Phone size={16}/></a><Link className="home-primary-btn" to="/vape-devices/">Explore catalogue <ArrowUpRight size={17}/></Link></div></div>
-        <Visual src="https://images.pexels.com/photos/14406074/pexels-photo-14406074.jpeg?cs=srgb&dl=pexels-m1ddl3-m7n-288920932-14406074.jpg&fm=jpg" alt="Map pin illustration for Lahore contact information"/>
+        <Visual src="https://images.pexels.com/photos/14406074/pexels-photo-14406074.jpeg?cs=srgb&dl=pexels-m1ddl3-m7n-288920932-14406074.jpg&fm=jpg" alt="Badshahi Mosque in Lahore, Punjab, Pakistan"/>
       </section>
 
     </main>
 
     <footer className="home-footer">
       <div className="home-footer-main"><div className="home-footer-brand"><Link className="home-brand" to="/"><span className="home-brand-mark">V</span><span>VAPE<span>247</span><small>LAHORE · PAKISTAN</small></span></Link><p>Product category information and customer support for Lahore, Pakistan.</p><a href={`tel:${phone}`}>+92 320 4855261</a></div><div><b>Categories</b><Link to="/vape-devices/">Vape devices</Link><Link to="/e-liquids/">E-liquids</Link><Link to="/replacement-coils/">Replacement coils</Link><Link to="/vape-accessories/">Accessories</Link></div><div><b>Vape247</b><Link to="/about-us/">About us</Link><Link to="/contact/">Contact</Link><Link to="/blog/">Guides</Link><Link to="/faq/">FAQs</Link></div><div><b>Policies</b><Link to="/shipping-policy/">Shipping</Link><Link to="/returns-refunds/">Returns</Link><Link to="/privacy-policy/">Privacy</Link><Link to="/terms-and-conditions/">Terms</Link><Link to="/age-verification/">Age information</Link></div></div>
-      <p className="home-image-credits">Image sources: <a href="https://pxhere.com/en/photo/489521" target="_blank" rel="noreferrer">PxHere CC0 vape hardware photo</a> · <a href="https://pxhere.com/en/photo/652423" target="_blank" rel="noreferrer">PxHere CC0 e-cigarette and liquid photo</a> · <a href="https://www.pexels.com/photo/facade-of-the-badshahi-mosque-lahore-punjab-pakistan-14406074/" target="_blank" rel="noreferrer">Badshahi Mosque photo via Pexels</a></p>
+      <p className="home-image-credits">Image sources: <a href="https://pxhere.com/en/photo/489520" target="_blank" rel="noreferrer">PxHere CC0 hardware photo 1</a> · <a href="https://pxhere.com/en/photo/489521" target="_blank" rel="noreferrer">PxHere CC0 hardware photo 2</a> · <a href="https://pxhere.com/en/photo/652423" target="_blank" rel="noreferrer">PxHere CC0 e-cigarette and liquid photo</a> · <a href="https://www.pexels.com/photo/facade-of-the-badshahi-mosque-lahore-punjab-pakistan-14406074/" target="_blank" rel="noreferrer">Badshahi Mosque photo via Pexels</a></p>
       <p className="home-footer-legal">Adults only. Products containing nicotine are addictive. This website is a catalogue framework; product inventory, pricing, checkout, payment, delivery and age-verification systems must be confirmed and configured before sales are enabled. Follow applicable laws and restrictions in Pakistan and Punjab.</p>
       <div className="home-footer-bottom"><span>© {new Date().getFullYear()} Vape247.pk</span><span>Lahore, Punjab, Pakistan</span></div>
     </footer>
