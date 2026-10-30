@@ -147,20 +147,16 @@ export default function HomePage() {
       </section>
 
       <section className="home-faq-section">
-        <div className="home-section-head"><div><Eyebrow>13 / QUICK ANSWERS</Eyebrow><h2>Frequently asked questions<span>.</span></h2></div><CircleHelp size={30}/></div>
+        <div className="home-section-head"><div><Eyebrow>13 / QUICK ANSWERS</Eyebrow><h2>Frequently asked questions<span>.</span></h2></div><Visual src="/images/faq-guide.svg" alt="Illustration of a frequently asked questions guide" className="home-faq-art"/></div>
         <div className="home-faq-grid">{faqs.map(([q,a])=><details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div>
         <SectionLink to="/faq/">Visit all FAQs</SectionLink>
       </section>
 
       <section className="home-local-proof-section">
-        <div><Eyebrow>14 / FIND VAPE247</Eyebrow><h2>Connect with Vape247 in Lahore.</h2><p>For current business hours, physical location, product availability and service coverage, please contact us directly. We will add verified store details here once confirmed.</p><a className="home-secondary-btn" href={`tel:${phone}`}>Call Vape247 <Phone size={16}/></a></div>
+        <div><Eyebrow>14 / FIND VAPE247</Eyebrow><h2>Connect with Vape247 in Lahore.</h2><p>For current business hours, physical location, product availability and service coverage, please contact us directly. We will add verified store details here once confirmed.</p><div className="home-hero-actions"><a className="home-secondary-btn" href={`tel:${phone}`}>Call Vape247 <Phone size={16}/></a><Link className="home-primary-btn" to="/vape-devices/">Explore catalogue <ArrowUpRight size={17}/></Link></div></div>
         <Visual src="/images/lahore-contact.svg" alt="Map pin illustration for Lahore contact information"/>
       </section>
 
-      <section className="home-final-cta">
-        <div><Eyebrow>15 / VAPE247.PK</Eyebrow><h2>Explore the catalogue. Check the details.</h2><p>Browse product categories and contact our team for confirmed information about Lahore availability.</p></div>
-        <Link className="home-primary-btn" to="/vape-devices/">Browse categories <ArrowUpRight size={17}/></Link>
-      </section>
     </main>
 
     <footer className="home-footer">
