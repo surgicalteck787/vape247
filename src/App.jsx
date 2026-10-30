@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './HomePage.jsx';
 import SitePage from './SitePage.jsx';
+import NewArrivals from './NewArrivals.jsx';
 import './styles.css';
 export default function App(){return <BrowserRouter><Routes>
 <Route path="/" element={<HomePage/>}/>
+<Route path="/new-arrivals/" element={<NewArrivals/>}/>
 <Route path="/vape-devices/" element={<SitePage pageKey="devices"/>}/>
 <Route path="/e-liquids/" element={<SitePage pageKey="eliquids"/>}/>
 <Route path="/replacement-coils/" element={<SitePage pageKey="coils"/>}/>
