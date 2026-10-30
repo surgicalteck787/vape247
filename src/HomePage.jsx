@@ -20,7 +20,7 @@ const faqs = [
 
 function SeoHome() {
   useEffect(() => {
-    const title = 'Vape Shop in Lahore, Pakistan | Vape247.pk';
+    const title = 'Vape Products in Lahore, Pakistan | Vape247.pk';
     const description = 'Vape247 Lahore product catalogue for vape devices, e-liquids, replacement coils and accessories. Check product details and contact us for local availability.';
     document.title = title;
     const setMeta = (key, value, property = false) => {
