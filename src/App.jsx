@@ -1,4 +1,6 @@
 import React, { useMemo, useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SitePage from './SitePage.jsx';
 import { Search, ShoppingBag, Menu, X, ArrowUpRight, ShieldCheck, Truck, Headphones, ChevronDown, Plus, Minus, Trash2, Instagram, Facebook, Mail } from 'lucide-react';
 
 const products = [
@@ -15,7 +17,7 @@ const money = n => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD
 function ProductArt({tone}) {
   return <div className={'product-art '+tone} aria-hidden="true"><div className="art-shape"><span /></div><i className="art-glow" /></div>;
 }
-function App(){
+function HomePage(){
   const [category,setCategory]=useState('All');
   const [query,setQuery]=useState('');
   const [cart,setCart]=useState([]);
@@ -52,4 +54,21 @@ function App(){
     <div className="age-footer">For adults only. Follow all applicable local laws and product restrictions. This demo does not sell age-restricted products.</div>
   </div>
 }
+function App(){return <BrowserRouter><Routes>
+<Route path='/' element={<HomePage/>}/>
+<Route path='/vape-devices/' element={<SitePage pageKey='devices'/>}/>
+<Route path='/e-liquids/' element={<SitePage pageKey='eliquids'/>}/>
+<Route path='/replacement-coils/' element={<SitePage pageKey='coils'/>}/>
+<Route path='/vape-accessories/' element={<SitePage pageKey='accessories'/>}/>
+<Route path='/about-us/' element={<SitePage pageKey='about'/>}/>
+<Route path='/contact/' element={<SitePage pageKey='contact'/>}/>
+<Route path='/shipping-policy/' element={<SitePage pageKey='shipping'/>}/>
+<Route path='/returns-refunds/' element={<SitePage pageKey='returns'/>}/>
+<Route path='/privacy-policy/' element={<SitePage pageKey='privacy'/>}/>
+<Route path='/terms-and-conditions/' element={<SitePage pageKey='terms'/>}/>
+<Route path='/faq/' element={<SitePage pageKey='faq'/>}/>
+<Route path='/blog/' element={<SitePage pageKey='blog'/>}/>
+<Route path='/age-verification/' element={<SitePage pageKey='age'/>}/>
+<Route path='*' element={<SitePage pageKey='notfound'/>}/>
+</Routes></BrowserRouter>;}
 export default App;
