@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vape247.com/sitemap.xml
+Sitemap: https://vape247.pk/sitemap.xml
