@@ -4,17 +4,26 @@ export const catalogueProducts = [
   {
     "name": "Geek Bar Pulse X 25K Puffs Disposable",
     "category": "Devices",
-    "referencePrice": "Rs.5,000"
+    "referencePrice": "Rs.5,000",
+    "image": "https://cdn11.bigcommerce.com/s-txwymtzlxu/images/stencil/original/products/564/697/Geek_Bar_Pulse_X_25K_Raspberry_Peach_Lime_25000_Puffs_Disposable_Vape__87130.1772777221.jpg",
+    "alt": "Geek Bar Pulse X 25K device product photo",
+    "source": "https://elementsvape.com/geek-bar-pulse-x-25k-grapefruit-refresher-25-000-puffs-disposable-vape/"
   },
   {
     "name": "Elf Bar Ice King Pro 40K Puffs Disposable",
     "category": "Devices",
-    "referencePrice": "Rs.5,000"
+    "referencePrice": "Rs.5,000",
+    "image": "https://vkdxb.com/cdn/shop/files/IceKing-Pro-Blueberry_Ice_1078x1078_jpg_4f9af6ec-d267-4e37-845b-cb92d03e6a02.jpg?v=1777913887&width=1946",
+    "alt": "ELFBAR Ice King Pro device product photo",
+    "source": "https://vkdxb.com/products/elfbar-ice-king-pro-40000-puffs-dubai"
   },
   {
     "name": "Elf Bar MoonNight 40K Puffs Disposable",
     "category": "Devices",
-    "referencePrice": "Rs.5,000"
+    "referencePrice": "Rs.5,000",
+    "image": "https://elfbar.ae/cdn/shop/files/MangoPeachWatermelon.png?v=1749191816",
+    "alt": "ELFBAR MoonNight device product photo",
+    "source": "https://elfbar.ae/collections/moonnight"
   },
   {
     "name": "Voopoo Argus Z3 Pod Kit 20W",
@@ -38,7 +47,10 @@ export const catalogueProducts = [
   {
     "name": "VOOPOO VMATE MAX 2",
     "category": "Devices",
-    "referencePrice": "Rs.7,200"
+    "referencePrice": "Rs.7,200",
+    "image": "https://img-va.myshopline.com/image/store/1747294110724/VAMTE-MAX-KV1.webp?h=1877&w=1877",
+    "alt": "VOOPOO VMATE MAX pod device product photo",
+    "source": "https://shop.voopoo.com/collections/v-series"
   },
   {
     "name": "VOOPOO VINCI Spark220",
@@ -176,7 +188,10 @@ export const catalogueProducts = [
   {
     "name": "Vaporesso XRos 6 Pod Kit",
     "category": "Devices",
-    "referencePrice": "Rs.6,800"
+    "referencePrice": "Rs.6,800",
+    "image": "https://store.vaporesso.com/cdn/shop/files/XROS_6-Abyssal_Blue.png?v=1783424816&width=550",
+    "alt": "Vaporesso XROS 6 pod kit product photo",
+    "source": "https://store.vaporesso.com/en-gb/products/xros-6"
   },
   {
     "name": "UWELL CALIBURN GPP ALPHA POD CARTRIDGE 3ML",
@@ -276,7 +291,10 @@ export const catalogueProducts = [
   {
     "name": "LYON Dualicious E-Liquid – Mango Peach Ice 100ml (3mg)",
     "category": "E-Liquids",
-    "referencePrice": "Rs.3,800"
+    "referencePrice": "Rs.3,800",
+    "image": "https://tobaccohouse.pk/cdn/shop/files/Lyon-Dualicious-Mango-Peach-100ml.webp?v=1776105952&width=1946",
+    "alt": "LYON Dualicious Mango Peach Ice 100ml bottle",
+    "source": "https://tobaccohouse.pk/products/lyon-dualicious-mango-peach-ice-100ml"
   },
   {
     "name": "LYON Dualicious E-Liquid – Watermelon Bubblegum Ice 100ml (3mg)",
@@ -2071,7 +2089,10 @@ export const catalogueProducts = [
   {
     "name": "DRIP DOWN EDITION PASSION LYCHEE ICE - 100ML",
     "category": "E-Liquids",
-    "referencePrice": "Rs.3,799"
+    "referencePrice": "Rs.3,799",
+    "image": "https://thevapetown.com/cdn/shop/files/PASSION-LYCHEE-ICE-100ML-DRIP-DOWN-EDITION.webp?v=1750721867",
+    "alt": "Drip Down Edition Passion Lychee Ice 100ml bottle and box",
+    "source": "https://thevapetown.com/products/passion-lychee-ice-100ml-drip-down-edition"
   },
   {
     "name": "Drip Down Edition Kiwi Dragon Fruit Ice - 100ml",
@@ -3691,7 +3712,10 @@ export const catalogueProducts = [
   {
     "name": "Dinner Lady Lemon Tart 30mg Nic Salt - 30ml",
     "category": "E-Liquids",
-    "referencePrice": "Rs.2,200"
+    "referencePrice": "Rs.2,200",
+    "image": "https://giantnic.com/cdn/shop/files/web1-2_5a5128b0-c55c-408c-8023-a9d12eed81c9_1200x1200.png?v=1755795636",
+    "alt": "Dinner Lady Lemon Tart nic salt 30ml bottle and box",
+    "source": "https://giantnic.com/products/lemon-tart-dinner-lady-dessert-30ml"
   },
   {
     "name": "Ripe Vapes VCT Sweet Almond Vanilla Salts 30mg E-Juice - 30ml",
