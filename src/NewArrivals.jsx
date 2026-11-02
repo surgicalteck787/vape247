@@ -56,7 +56,7 @@ export default function NewArrivals() {
     <header className="na-header">
       <Link className="na-brand" to="/"><span className="na-brand-mark">V</span><span>VAPE<span>247</span><small>LAHORE · PAKISTAN</small></span></Link>
       <nav aria-label="Main navigation">
-        <Link to="/">Home</Link><Link to="/vape-devices/">Devices</Link><Link className="active" to="/products/">All Products</Link><Link to="/e-liquids/">E-Liquids</Link><Link to="/replacement-coils/">Coils</Link><Link to="/vape-accessories/">Accessories</Link>
+        <Link to="/">Home</Link><Link to="/collections/vape-kits/">Vape Kits</Link><Link to="/collections/e-liquids/">E-Liquids</Link><Link to="/collections/disposable-vapes/">Disposable Vapes</Link><Link to="/collections/pods/">Pods</Link><Link className="active" to="/products/">All Products</Link>
       </nav>
     </header>
     <main>
