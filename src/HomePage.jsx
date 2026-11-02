@@ -42,7 +42,7 @@ export default function HomePage(){
    </div>
   <header className="v247-header">
    <Link className="v247-logo" to="/"><b>VAPE<span>247</span></b><small>LAHORE · PAKISTAN</small></Link>
-   <nav><Link to="/products/">Shop</Link><Link to="/vape-devices/">Devices</Link><Link to="/e-liquids/">E-Juices</Link><Link to="/products/">Disposable</Link><Link to="/vape-accessories/">Accessories</Link><Link to="/products/">New Arrivals</Link></nav>
+   <nav><Link to="/products/">Shop</Link><div className="v247-nav-dropdown"><Link to="/collections/vape-kits/">Vape Kits</Link><div className="v247-dropdown-menu"><Link to="/collections/vape-kits/">Vape Kits</Link><Link to="/collections/e-liquids/">E-Liquids</Link><Link to="/collections/disposable-vapes/">Disposable Vapes</Link><Link to="/collections/pods/">Pods</Link></div></div><Link to="/collections/e-liquids/">E-Liquids</Link><Link to="/collections/disposable-vapes/">Disposable Vapes</Link><Link to="/collections/pods/">Pods</Link><Link to="/products/">All Products</Link></nav>
    <div className="v247-header-actions"><a href={'tel:'+phone}><Phone size={17}/><span>0320 4855261</span></a><Link to="/products/"><ShoppingBag size={18}/></Link></div>
   </header>
   <main id="main-content">
