@@ -3,10 +3,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './HomePage.jsx';
 import SitePage from './SitePage.jsx';
 import NewArrivals from './NewArrivals.jsx';
+import CollectionPage from './CollectionPage.jsx';
 import './styles.css';
 export default function App(){return <BrowserRouter><Routes>
 <Route path="/" element={<HomePage/>}/>
 <Route path="/new-arrivals/" element={<NewArrivals/>}/>
+<Route path="/collections/vape-kits/" element={<CollectionPage collectionKey="vape-kits"/>}/>
+<Route path="/collections/e-liquids/" element={<CollectionPage collectionKey="e-liquids"/>}/>
+<Route path="/collections/disposable-vapes/" element={<CollectionPage collectionKey="disposable-vapes"/>}/>
+<Route path="/collections/pods/" element={<CollectionPage collectionKey="pods"/>}/>
+<Route path="/e-liquids/" element={<CollectionPage collectionKey="e-liquids"/>}/>
 <Route path="/products/" element={<NewArrivals/>}/>
 <Route path="/vape-devices/" element={<SitePage pageKey="devices"/>}/>
 <Route path="/e-liquids/" element={<SitePage pageKey="eliquids"/>}/>
