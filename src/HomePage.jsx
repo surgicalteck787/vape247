@@ -32,7 +32,14 @@ export default function HomePage(){
  const brandNames=['Geekvape','Innokin','IVG','Lost Mary','OXVA','SMOK','Vaporesso','Uwell','VOOPOO','Geek Bar'];
  return <div className="v247-home"><SeoHome/>
   <a className="v247-skip" href="#main-content">Skip to content</a>
-  <div className="v247-announcement"><span>Product catalogue available for Lahore customers</span><span>Call or WhatsApp to confirm availability</span><span>Adults only • 18+</span></div>
+  <div className="v247-top-strip">
+    <span>Cash On Delivery Available For Nationwide Orders</span>
+    <span>Same Day Dispatch In Lahore (Subject To Availability)</span>
+    <span>Free Delivery On Selected Orders</span>
+   </div>
+   <div className="v247-announcement">
+    <span>VAPE247 • LAHORE, PAKISTAN</span><span>Latest Devices • E-Liquids • Coils & Accessories</span><span>Adults Only • 18+</span>
+   </div>
   <header className="v247-header">
    <Link className="v247-logo" to="/"><b>VAPE<span>247</span></b><small>LAHORE · PAKISTAN</small></Link>
    <nav><Link to="/products/">Shop</Link><Link to="/vape-devices/">Devices</Link><Link to="/e-liquids/">E-Juices</Link><Link to="/products/">Disposable</Link><Link to="/vape-accessories/">Accessories</Link><Link to="/products/">New Arrivals</Link></nav>
@@ -40,8 +47,17 @@ export default function HomePage(){
   </header>
   <main id="main-content">
    <section className="v247-hero">
-    <div className="v247-hero-copy"><span className="v247-kicker">VAPE247.PK</span><h1>Explore Our Latest <em>Vape Collection.</em></h1><p>Discover vape devices, e-liquids, disposables, coils and accessories in one modern Lahore-focused catalogue.</p><div className="v247-hero-buttons"><Link to="/products/">SHOP PRODUCTS <ArrowRight size={17}/></Link><a href={'tel:'+phone}>CONTACT US <Phone size={16}/></a></div></div>
-    <div className="v247-hero-image">{featured[0]?.image&&<img src={featured[0].image} alt={featured[0].alt||featured[0].name}/>}<div className="v247-hero-orb"></div><span className="v247-hero-label">NEW ARRIVALS<br/><b>VAPE247</b></span></div>
+    <div className="v247-hero-overlay"></div>
+    <div className="v247-hero-copy"><span className="v247-kicker">VAPE247.PK • PREMIUM COLLECTION</span><h1>Explore Our Latest <em>Vape Collection.</em></h1><p>Discover vape devices, e-liquids, disposables, coils and accessories in one modern Lahore-focused catalogue.</p><div className="v247-hero-buttons"><Link to="/products/">SHOP PRODUCTS <ArrowRight size={17}/></Link><a href={'tel:'+phone}>CONTACT US <Phone size={16}/></a></div></div>
+    <div className="v247-hero-image">
+      {featured[0]?.image&&<img className="v247-hero-main-product" src={featured[0].image} alt={featured[0].alt||featured[0].name}/>}
+      {featured[1]?.image&&<img className="v247-hero-floating-product v247-float-one" src={featured[1].image} alt="Featured Vape247 device"/>}
+      {featured[2]?.image&&<img className="v247-hero-floating-product v247-float-two" src={featured[2].image} alt="Featured Vape247 device"/>}
+      <div className="v247-hero-orb"></div>
+      <span className="v247-hero-label">NEW ARRIVALS<br/><b>VAPE247</b></span>
+      <span className="v247-hero-discount">EXPLORE<br/><b>2026</b><br/>COLLECTION</span>
+     </div>
+     <div className="v247-hero-stats"><span><b>742+</b> Products</span><span><b>24/7</b> Browse Online</span><span><b>LAHORE</b> Pakistan</span></div>
    </section>
 
    <section className="v247-categories"><div className="v247-category-grid">{categories.map(c=><Link to={c.to} className="v247-category" key={c.title}><div>{c.image&&<img src={c.image} alt={c.title}/>}</div><h3>{c.title}</h3><span>Shop Now <ArrowRight size={15}/></span></Link>)}</div></section>
