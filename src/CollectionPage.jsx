@@ -18,7 +18,7 @@ export default function CollectionPage({collectionKey='vape-kits'}){
  const pages=Math.max(1,Math.ceil(filtered.length/pageSize));const current=Math.min(page,pages);
  const visible=filtered.slice((current-1)*pageSize,current*pageSize);
  useEffect(()=>{document.title=config.seo;let m=document.querySelector('meta[name="description"]');if(!m){m=document.createElement('meta');m.name='description';document.head.appendChild(m)}m.content=config.meta;let c=document.querySelector('link[rel="canonical"]');if(!c){c=document.createElement('link');c.rel='canonical';document.head.appendChild(c)}c.href='https://vape247.pk/collections/'+collectionKey+'/'},[config,collectionKey]);
- const links=[['Vape Kits','/collections/vape-kits/'],['E-Liquids','/collections/e-liquids/'],['Disposable Vapes','/collections/disposable-vapes/'],['Pods','/collections/pods/']];
+ const links=[['Vape Kits','/collections/vape-kits/'],['E-Liquids','/collections/e-liquids/'],['Disposable Vapes','/collections/disposable-vapes/'],['Pods','/collections/pods/'],['SKE 600 Pro Pods','/collections/ske-600-pro-pods/']];
  return <div className="site-shell collection-page">
   <div className="collection-topline">VAPE247.PK <span>•</span> LAHORE, PAKISTAN <span>•</span> ADULT-ONLY PRODUCT INFORMATION</div>
   <header className="collection-header"><Link className="collection-brand" to="/"><b>VAPE<span>247</span></b><small>LAHORE · PAKISTAN</small></Link><nav>{links.map(([n,u])=><Link className={u.includes(collectionKey)?'active':''} key={n} to={u}>{n}</Link>)}<Link to="/products/">All Products</Link></nav><Link className="collection-home" to="/">Home <ArrowUpRight size={15}/></Link></header>
