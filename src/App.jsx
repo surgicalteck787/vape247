@@ -4,6 +4,7 @@ import HomePage from './HomePage.jsx';
 import SitePage from './SitePage.jsx';
 import NewArrivals from './NewArrivals.jsx';
 import CollectionPage from './CollectionPage.jsx';
+import Ske600PodsPage from './Ske600PodsPage.jsx';
 import './styles.css';
 export default function App(){return <BrowserRouter><Routes>
 <Route path="/" element={<HomePage/>}/>
@@ -12,6 +13,7 @@ export default function App(){return <BrowserRouter><Routes>
 <Route path="/collections/e-liquids/" element={<CollectionPage collectionKey="e-liquids"/>}/>
 <Route path="/collections/disposable-vapes/" element={<CollectionPage collectionKey="disposable-vapes"/>}/>
 <Route path="/collections/pods/" element={<CollectionPage collectionKey="pods"/>}/>
+<Route path="/collections/ske-600-pro-pods/" element={<Ske600PodsPage/>}/>
 <Route path="/e-liquids/" element={<CollectionPage collectionKey="e-liquids"/>}/>
 <Route path="/products/" element={<NewArrivals/>}/>
 <Route path="/vape-devices/" element={<SitePage pageKey="devices"/>}/>
