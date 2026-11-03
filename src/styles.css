@@ -156,3 +156,31 @@
 .v247-header nav .v247-nav-dropdown{position:relative}.v247-nav-dropdown>a{color:#d0d5cc;font-size:11px}.v247-dropdown-menu{display:none;position:absolute;top:100%;left:-16px;min-width:185px;padding:9px;background:#151b14;border:1px solid #384531;box-shadow:0 15px 30px #0009}.v247-dropdown-menu a{display:block;padding:11px 12px;color:#dce3d6;font-size:10px}.v247-dropdown-menu a:hover{background:#26321e;color:#b8f34b}.v247-nav-dropdown:hover .v247-dropdown-menu,.v247-nav-dropdown:focus-within .v247-dropdown-menu{display:block}
 @media(max-width:900px){.collection-header{height:auto;min-height:75px;flex-wrap:wrap;gap:12px;padding:14px 5%}.collection-header nav{order:3;width:100%;overflow:auto;white-space:nowrap;padding-bottom:4px}.collection-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.collection-hero{padding-left:6%;padding-right:6%}}
 @media(max-width:650px){.collection-topline{white-space:nowrap;overflow:auto}.collection-hero{padding:45px 5%;align-items:flex-start;flex-direction:column}.collection-breadcrumb{margin-bottom:25px}.collection-count{min-height:105px;width:100%}.collection-switcher{justify-content:flex-start;overflow:auto;flex-wrap:nowrap}.collection-switcher a{white-space:nowrap}.collection-products{padding:45px 5%}.collection-heading{align-items:stretch;flex-direction:column}.collection-heading h2{font-size:26px}.collection-search{width:100%}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.collection-photo{height:175px}.collection-card-info{padding:11px}.collection-card-info h3{font-size:11px;min-height:66px}.collection-disclaimer{margin:0 5% 45px;padding:16px}.collection-footer{flex-wrap:wrap}.v247-header nav{gap:13px}.v247-dropdown-menu{position:fixed;left:5%;right:5%;top:auto;min-width:unset}.v247-header nav .v247-nav-dropdown{position:static}}
+
+
+/* SKE 600 Pro pods collection */
+.ske-hero{padding:42px 7.2% 52px;background:radial-gradient(circle at 82% 30%,rgba(184,243,75,.12),transparent 34%),linear-gradient(130deg,#111713,#0b0d0c 65%);border-bottom:1px solid var(--line)}
+.ske-hero .collection-breadcrumb{display:flex;gap:10px;align-items:center;color:#92998e;font-size:12px;margin-bottom:34px}
+.ske-hero .collection-breadcrumb b{color:#e7ebdf}
+.ske-hero .collection-eyebrow{display:block;color:var(--green);font-size:10px;font-weight:800;letter-spacing:2px}
+.ske-hero h1{font:800 clamp(36px,6vw,68px)/1.04 Manrope,sans-serif;letter-spacing:-2px;margin:15px 0}
+.ske-hero h1 em{color:var(--green);font-style:normal}
+.ske-hero>p{max-width:680px;color:#b4b9b0;line-height:1.8;font-size:15px}
+.ske-hero-tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}
+.ske-hero-tags span{border:1px solid #394238;border-radius:30px;padding:8px 13px;color:#d8dfd2;font-size:11px}
+.ske-specs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#30372e;border-bottom:1px solid #30372e}
+.ske-specs>div{background:#111512;padding:20px 7.2%;display:flex;flex-direction:column;gap:7px}
+.ske-specs b{font-size:12px;color:var(--green)}
+.ske-specs span{font-size:12px;color:#d5dacf;line-height:1.5}
+.ske-collection .collection-header nav{flex-wrap:wrap}
+.ske-description{margin:10px 7.2% 65px;display:grid;grid-template-columns:1.7fr 1fr;gap:28px;align-items:start}
+.ske-description>div{max-width:780px}
+.ske-description h2,.ske-faq h2{font:800 clamp(25px,3vw,36px)/1.15 Manrope,sans-serif;margin:12px 0 18px}
+.ske-description p,.ske-description aside p{color:#b2b8ae;font-size:14px;line-height:1.85}
+.ske-description aside{border:1px solid #394238;background:#111713;padding:22px;border-radius:14px}
+.ske-description aside b{color:var(--green);font-size:13px}
+.ske-faq{margin:0 7.2% 55px;max-width:900px}
+.ske-faq details{border-bottom:1px solid #30372e;padding:17px 0}
+.ske-faq summary{cursor:pointer;color:#edf1e9;font-weight:700;font-size:14px}
+.ske-faq details p{color:#aeb5a9;font-size:13px;line-height:1.8;max-width:760px}
+@media(max-width:760px){.ske-hero{padding:28px 5% 38px}.ske-specs{grid-template-columns:1fr}.ske-specs>div{padding:16px 5%}.ske-description{margin:10px 5% 45px;grid-template-columns:1fr}.ske-faq{margin:0 5% 42px}.ske-collection .collection-header nav{display:none}}
